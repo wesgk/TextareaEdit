@@ -1,12 +1,21 @@
+# Field Editing App
 
-## Files
+## 2016/01/31
+## Synopsis
 
-### form.php
-See file comments for details
+A simple native JavaScript app allowing text area editing. 
 
-### companies.sql
-* Add ID index primary key to *companies* table
+## Motivation
+This was a practice exercise
 
-### inc/companies.php (db connect file)
-* select companies by ID
-* return full rows 
+## Installation
+Requires PHP 5.4 & MySql version 3.5.1
+
+## Tests
+No testing scripts setup yet
+
+## Contributors
+@wesgknight
+
+## License
+see LICENSE.md

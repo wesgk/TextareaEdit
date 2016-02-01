@@ -19,7 +19,7 @@ class Companies{
   }
 
   static function update($id, $attrs){
-    $description = $attrs['description'];
+    $description = filter_var($attrs['description'], FILTER_SANITIZE_STRING);
     $sqlstring = "update companies set description = '" . $description . "' where id = " . $id . "";
     $result = mysql_query($sqlstring);
     if($result){
